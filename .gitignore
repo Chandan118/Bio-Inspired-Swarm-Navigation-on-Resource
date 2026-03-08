@@ -1,0 +1,14 @@
+# ROS build artifacts
+build/
+install/
+log/
+
+# Simulation results
+simulation_results/
+
+# OS specific files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
