@@ -1,20 +1,14 @@
 """
-Multi-Modal Localization and Mapping (SLAM)
-=============================================
-Implementation of the GPS-denied localization system from FormicaBot Chapter 4.
+localization.py
 
-Key Components:
-1. Extended Kalman Filter (EKF)
-   - Fuses wheel odometry (displacement) with IMU (heading).
-   - Accurately tracks short-term translation while correcting rotational drift.
+Author      : Chandan Sheikder
+Email       : chandan@bit.edu.cn
+Phone       : +8618222390506
+Affiliation : Beijing Institute of Technology (BIT)
+Date        : 2026-03-23
 
-2. Probabilistic Occupancy Grid (Bresenham Ray-Casting)
-   - Discretises space into 10cm x 10cm cells.
-   - Updates probabilities using inverse sensor model for LiDAR scans.
-   - P(occupied) map shared among swarm members.
-
-3. Iterative Closest Point (ICP) Scan Matching (simulated)
-   - Corrects absolute position by aligning local scans to the global map.
+Description:
+    Multi-Modal Localization and Mapping (SLAM)
 """
 
 import numpy as np

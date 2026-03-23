@@ -1,3 +1,16 @@
+"""
+robot_node.py
+
+Author      : Chandan Sheikder
+Email       : chandan@bit.edu.cn
+Phone       : +8618222390506
+Affiliation : Beijing Institute of Technology (BIT)
+Date        : 2026-03-23
+
+Description:
+    Module for Robot Node
+"""
+
 import sys
 import os
 

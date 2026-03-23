@@ -1,8 +1,14 @@
 """
-FormicaBot Configuration
-========================
-All simulation hyperparameters, hardware constants, and algorithm settings
-derived from Chapter 4 of the thesis and FormicaBot journal paper (Sensors MDPI).
+config.py
+
+Author      : Chandan Sheikder
+Email       : chandan@bit.edu.cn
+Phone       : +8618222390506
+Affiliation : Beijing Institute of Technology (BIT)
+Date        : 2026-03-23
+
+Description:
+    FormicaBot Configuration
 """
 
 from dataclasses import dataclass, field

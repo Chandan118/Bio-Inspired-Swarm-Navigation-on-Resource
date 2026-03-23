@@ -1,23 +1,14 @@
 """
-MobileNetV3-Small Target Recognition
-======================================
-Simulates the quantisation-aware MobileNetV3-Small CNN deployed on the
-Jetson Orin Nano for real-time target recognition in FormicaBot.
+mobilenet_recognition.py
 
-Key parameters (from paper):
-  - Training dataset: 15,000 labelled images → augmented to 60,000
-  - Quantisation: FP32 → INT8 (4× memory reduction, 3.2× speedup)
-  - Accuracy drop: <2% (1.8% measured)
-  - Inference: 15 FPS @ 1.8 W on Jetson Orin Nano GPU
-  - Confidence threshold τ_conf = 0.85
-  - Adaptive frame-rate: 15 FPS → 10 FPS when latency > 500 ms
-  - Input: 224×224 RGB + depth channel (Azure Kinect)
+Author      : Chandan Sheikder
+Email       : chandan@bit.edu.cn
+Phone       : +8618222390506
+Affiliation : Beijing Institute of Technology (BIT)
+Date        : 2026-03-23
 
-This module provides:
-  1. A PyTorch MobileNetV3-based model with INT8 quantisation simulation
-  2. A lightweight numpy-only mock for environments without PyTorch
-  3. An inference engine with adaptive frame-rate control
-  4. Power and latency tracking
+Description:
+    MobileNetV3-Small Target Recognition
 """
 
 import time

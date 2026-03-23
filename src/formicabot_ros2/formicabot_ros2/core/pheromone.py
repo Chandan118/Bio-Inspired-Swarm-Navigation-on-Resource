@@ -1,15 +1,14 @@
 """
-Dual-Modality Virtual Pheromone Grid
-=====================================
-Implements both the optical trail (TCRT5000 simulation) and chemical trail
-(MQ-135 simulation) pheromone grids described in FormicaBot Chapter 4.
+pheromone.py
 
-Pheromone evaporation follows:
-    τ(t+Δt) = τ(t) · exp(−λ · Δt)
+Author      : Chandan Sheikder
+Email       : chandan@bit.edu.cn
+Phone       : +8618222390506
+Affiliation : Beijing Institute of Technology (BIT)
+Date        : 2026-03-23
 
-Modality arbitration is driven by the real-time optical SNR.
-When SNR < snr_threshold, the chemical fallback channel is activated.
-This reduces average MQ-135 power from 800 mW (always-on) to ~25 mW.
+Description:
+    Dual-Modality Virtual Pheromone Grid
 """
 
 import numpy as np

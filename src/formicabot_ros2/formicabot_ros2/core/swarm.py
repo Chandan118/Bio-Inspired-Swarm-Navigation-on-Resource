@@ -1,8 +1,14 @@
 """
-Swarm Coordinator
-=================
-Manages the simulation step loop for all robots, pheromone grid,
-and OPTICS clustering rollouts.
+swarm.py
+
+Author      : Chandan Sheikder
+Email       : chandan@bit.edu.cn
+Phone       : +8618222390506
+Affiliation : Beijing Institute of Technology (BIT)
+Date        : 2026-03-23
+
+Description:
+    Swarm Coordinator
 """
 
 import numpy as np

@@ -1,20 +1,14 @@
 """
-OPTICS-Based Behavioural Role Differentiation
-===============================================
-Implements the OPTICS (Ordering Points To Identify the Clustering Structure)
-density-based algorithm used in FormicaBot for emergent role differentiation.
+optics_clustering.py
 
-Feature vector per robot (6-D):
-  [0] average_speed          — normalised 0..1
-  [1] turn_rate              — normalised angular velocity
-  [2] pheromone_deposit_freq — deposits per timestep
-  [3] time_in_explore        — fraction of window in exploration state
-  [4] time_in_exploit        — fraction of window in exploitation state
-  [5] n_interactions         — neighbour interactions per timestep
+Author      : Chandan Sheikder
+Email       : chandan@bit.edu.cn
+Phone       : +8618222390506
+Affiliation : Beijing Institute of Technology (BIT)
+Date        : 2026-03-23
 
-Clustering runs every N_cluster = 1000 timesteps.
-Scout cluster → high w_random, low w_chemo
-Worker cluster → low w_random, high w_chemo
+Description:
+    OPTICS-Based Behavioural Role Differentiation
 """
 
 import numpy as np
