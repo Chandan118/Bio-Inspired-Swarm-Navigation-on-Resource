@@ -1,8 +1,14 @@
 """
-Single Robot State Machine
-==========================
-Defines the FormicaBot agent behaviour (Section 4.5).
-States: 'explore', 'exploit', 'return', 'recharge'.
+robot.py
+
+Author      : Chandan Sheikder
+Email       : chandan@bit.edu.cn
+Phone       : +8618222390506
+Affiliation : Beijing Institute of Technology (BIT)
+Date        : 2026-03-23
+
+Description:
+    Single Robot State Machine
 """
 
 import numpy as np

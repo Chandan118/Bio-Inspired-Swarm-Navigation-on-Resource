@@ -1,13 +1,14 @@
 """
-Hierarchical Power Management System
-======================================
-Simulates FormicaBot's power architecture (Section 4.6).
+power_manager.py
 
-Features:
-  - DVFS (Dynamic Voltage & Frequency Scaling) for CPU/GPU.
-  - Sensor power gating (Kinect, MQ-135, LiDAR).
-  - Battery state-of-charge tracking.
-  - Return-to-nest safety override.
+Author      : Chandan Sheikder
+Email       : chandan@bit.edu.cn
+Phone       : +8618222390506
+Affiliation : Beijing Institute of Technology (BIT)
+Date        : 2026-03-23
+
+Description:
+    Hierarchical Power Management System
 """
 
 from typing import Dict, Tuple

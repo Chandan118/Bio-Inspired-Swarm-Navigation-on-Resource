@@ -1,13 +1,14 @@
 """
-Ant Colony Optimisation (ACO) Foraging Algorithm
-==================================================
-Implements the adaptive ACO-based foraging controller used in FormicaBot.
-Features:
-  - Probabilistic next-cell selection: P(i→j) ∝ τ_ij^α · η_ij^β
-  - Ant Colony System (ACS) exploitation step: argmax if rand < q0
-  - Dynamic obstacle rerouting via stigmergy-driven path reinforcement
-  - Exploration–exploitation balance through w_random / w_chemo weights
-  - Per-robot role-aware parameter injection from OPTICS clustering
+aco_foraging.py
+
+Author      : Chandan Sheikder
+Email       : chandan@bit.edu.cn
+Phone       : +8618222390506
+Affiliation : Beijing Institute of Technology (BIT)
+Date        : 2026-03-23
+
+Description:
+    Ant Colony Optimisation (ACO) Foraging Algorithm
 """
 
 import numpy as np
