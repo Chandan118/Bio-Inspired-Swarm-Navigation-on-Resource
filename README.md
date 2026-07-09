@@ -9,7 +9,8 @@
 
 A ROS 2 workspace implementing bio-inspired swarm navigation for the **FormicaBot** multi-robot platform. The system replicates ant colony pheromone communication and collective foraging to achieve emergent, decentralized navigation in resource-constrained environments.
 
-> 📖 **Read the paper:** [Bio-Inspired Swarm Navigation on Resource-Constrained Robots for GPS-Denied Environments](https://www.mdpi.com/1424-8220/26/11/3525)
+> 📖 **Read the paper:** [Bio-Inspired Swarm Navigation on Resource-Constrained Robots for GPS-Denied Environments](https://www.mdpi.com/1424-8220/26/11/3525)  
+> 🔗 **DOI:** [https://www.mdpi.com/1424-8220/26/11/3525](https://www.mdpi.com/1424-8220/26/11/3525)
 
 
 ---
@@ -94,6 +95,18 @@ python3 verify_logic.py
 If you use this work in your research, please cite:
 
 ```bibtex
+@article{sheikder2026swarm,
+  author    = {Chandan Sheikder and others},
+  title     = {Bio-Inspired Swarm Navigation on Resource-Constrained Robots for GPS-Denied Environments},
+  journal   = {Sensors},
+  volume    = {26},
+  number    = {11},
+  pages     = {3525},
+  year      = {2026},
+  doi       = {10.3390/s26113525},
+  url       = {https://www.mdpi.com/1424-8220/26/11/3525}
+}
+
 @software{sheikder2025swarm,
   author    = {Chandan Sheikder},
   title     = {Bio-Inspired Swarm Navigation on Resource},
